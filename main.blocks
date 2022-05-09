@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="h6`)s*Rz0C+_yN6W!qb`" x="0" y="0"><statement name="HANDLER"><block type="device_print_message" id="%s9ogqcC}dc~:=nTjloM"><value name="text"><shadow type="text" id="^d}6*_DJgBZrovNqmrYu"><field name="TEXT">CAM</field></shadow></value><next><block type="bluetooth_start_button_service" id="]d=(dpD-`Re0%xcFJ#I8"><next><block type="bluetooth_start_temperature_service" id="IZ.`0g$^z(g`g3|-24{L"/></next></block></next></block></statement></block><block type="bluetooth_on_connected" id="+@(~#BvoRaHvTSC.}F;m" x="-13" y="256"><statement name="HANDLER"><block type="device_play_note" id=".$kdx`DN_(9hH`Ew%%Q("><value name="note"><shadow type="device_note" id="obEo@MO;LS*VUtD`i)!!"><field name="name">880</field></shadow></value><value name="duration"><shadow type="device_beat" id="wj44X[o!k#C(!G^#ZoMZ"><field name="fraction">BeatFraction.Whole</field></shadow></value><next><block type="device_show_leds" id="]!{qu{aI|RO7Drm%Y3)@"><field name="LEDS">`
+        . # # # . 
+        # . . . . 
+        # . . . . 
+        # . . . . 
+        . # # # .
+        `</field><next><block type="device_pause" id="VfwcrU1Cxc4_0Zp!C7KS"><value name="pause"><shadow type="timePicker" id="E9Cp^RS%!)MQtF6maO-T"><field name="ms">1000</field></shadow></value><next><block type="device_show_leds" id="ny:$Yfa%@l3tI?DET(fg"><field name="LEDS">`
+        # # # . . 
+        . # # . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="sL1MqGB5/!}pPIo23H%h" x="-5" y="936"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="devices_camera" id="?KJw/8b6WwR_iF.C%I#)"><field name="property">MesCameraEvent.TakePhoto</field></block></statement></block><block type="device_button_event" id="@vZxZYS5:[.0_fgoIcId" x="-19" y="1112"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="devices_camera" id="Zyd7tDR[s%[SELcARVbh"><field name="property">MesCameraEvent.ToggleFrontRear</field></block></statement></block><block type="input_logo_event" id="I8`+:_ds/ibNmj663J/Z" x="-13" y="1273"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="device_print_message" id="Vp/xNhmJfQUs`_BOX8}d"><value name="text"><shadow type="text" id="=3C(/S@q}Q=qE#J#gGNo"><field name="TEXT">Logo</field></shadow></value><next><block type="device_show_leds" id="5@bQw)Z]].pQMy`Yeup!"><field name="LEDS">`
+        # # # . . 
+        . # # . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></statement></block><block type="bluetooth_on_disconnected" id="yZj?A_j;6or}Kg8+^|=W" x="-20" y="1661"><statement name="HANDLER"><block type="device_play_note" id=",zV;u8hkZ8yB_qs;]|zB"><value name="note"><shadow type="device_note" id="N1;:]D-H0.QG^u7t|TZ-"><field name="name">131</field></shadow></value><value name="duration"><shadow type="device_beat" id="saml1W;0-u_7x6[1L[?M"><field name="fraction">BeatFraction.Whole</field></shadow></value><next><block type="basic_show_icon" id="Y]*5E90Ffm$sJ0dW~i{I"><field name="i">IconNames.No</field><next><block type="device_pause" id="zum^Edcc^#Y[Dq(uQbc!"><value name="pause"><shadow type="timePicker" id="Yz8Z|h`2K]ACC~Ea}pwt"><field name="ms">1000</field></shadow></value><next><block type="device_show_leds" id="1hqn%i[:KVZ3?JI,3+()"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . #
+        `</field></block></next></block></next></block></next></block></statement></block></xml>
